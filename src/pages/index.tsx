@@ -31,7 +31,7 @@ const Home = () => {
   // 2 -> 旗を立てる
   // 3 -> 未知の為?を設置
   const [userInputs, setUserInputs] = useState(nomalBorad);
-  const newUserInout = JSON.parse(JSON.stringify(userInputs));
+  const newUserInput = JSON.parse(JSON.stringify(userInputs));
   //bombMap 0 -> 無し 1 -> 有り
   const [bombMap, setBombMap] = useState(nomalBorad);
   const newBombMap = JSON.parse(JSON.stringify(bombMap));
