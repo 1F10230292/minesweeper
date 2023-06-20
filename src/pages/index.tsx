@@ -1,16 +1,6 @@
 import { useState } from 'react';
 import styles from './index.module.css';
-const nomalBorad = [
-  [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0, 0, 0],
-  [0, 0, 0, 0, 0, 0, 0, 0, 0],
-];
+
 const directions = [
   [1, -1],
   [0, -1],
@@ -27,13 +17,39 @@ const Home = () => {
   //bombSet=Ture ;userInputs =false ; setFlag = false
   //userInput
   // 0 -> 未入力
-  // 1 -> 入力済
+  // 1 -> 左クリック
   // 2 -> 旗を立てる
   // 3 -> 未知の為?を設置
-  const [userInputs, setUserInputs] = useState(nomalBorad);
-  const newUserInput = JSON.parse(JSON.stringify(userInputs));
+  const [userInputs, setUserInputs] = useState<(0 | 1 | 2 | 3)[][]>([
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  ]);
+  const newUserInputs: (0 | 1 | 2 | 3)[][] = JSON.parse(JSON.stringify(userInputs));
+  // [userInputs]
+  // | 0 = 未クリック
+  // | 1 = 左クリック
+  // | 2 = 旗
+  // | 3 = はてな
   //bombMap 0 -> 無し 1 -> 有り
-  const [bombMap, setBombMap] = useState(nomalBorad);
+  const bombCount = 10;
+  const [bombMap, setBombMap] = useState([
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0, 0],
+  ]);
   const newBombMap = JSON.parse(JSON.stringify(bombMap));
   //初期値は上記に乗っ取り-1
   //0~8 ->  周りのbombの数
