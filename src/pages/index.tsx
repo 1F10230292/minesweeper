@@ -115,7 +115,7 @@ const Home = () => {
   const setBomb = (x: number, y: number) => {
     const r1 = getRandomInt(0, 9);
     const r2 = getRandomInt(0, 9);
-    if (r1 === x && r2 === y) {
+    if (r2 === x && r1 === y) {
       setBomb(x, y);
     } else if (newBombMap[r1][r2] === 0) {
       newBombMap[r1][r2] = 1;
@@ -220,16 +220,10 @@ const Home = () => {
               {state === -1 && <div className={styles.stone} />}
 
               <div className={styles.icon} style={{ backgroundPosition: 30 - 30 * state }} />
-              {state === 10 && (
-                <div className={styles.stone}>
-                  <div className={styles.icon} style={{ backgroundPosition: '-240px ' }} />
-                </div>
-              )}
-              {state === 9 && (
-                <div className={styles.stone}>
-                  <div className={styles.icon} style={{ backgroundPosition: '-270px ' }} />
-                </div>
-              )}
+
+              <div className={styles.stone}>
+                <div className={styles.icon} style={{ backgroundPosition: 540 - 30 * state }} />
+              </div>
             </div>
           ))
         )}
