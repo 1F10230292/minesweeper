@@ -1,0 +1,287 @@
+[33mcommit c3265c248d689ca3149e07982e9065ef9e2f56a7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: tubuan <s1f102302922@iniad.org>
+Date:   Fri Jun 30 20:37:16 2023 +0900
+
+    コードを綺麗に。
+
+[33mcommit 17bf9bf5bfe82bbb37b99a253c6a6a89d9c0875b[m
+Author: tubuan <s1f102302922@iniad.org>
+Date:   Tue Jun 27 11:50:48 2023 +0900
+
+    gotstevenのを見てコードを書いた。
+
+[33mcommit 235f172dec03a984c7f79a34e4bf24e59159da9d[m
+Author: tubuan <s1f102302922@iniad.org>
+Date:   Mon Jun 26 17:54:46 2023 +0900
+
+    gotstevenのをみてコードを書いた。まだ理解できない。
+
+[33mcommit 20bc8d3a4b8764aa02543a9d47fae88d82c945fe[m
+Author: tubuan <s1f102302922@iniad.org>
+Date:   Tue Jun 20 16:27:00 2023 +0900
+
+    gotstevenとChatGPTを使ってマインスイーパーのコードを入力した。
+
+[33mcommit 66240ef9d2e8d80957b2e45dba3fc82a46489bb3[m
+Author: tubuan <s1f102302922@iniad.org>
+Date:   Mon Jun 19 21:20:55 2023 +0900
+
+    Chat-GPTを使ってminesweeperのコードを理解した
+
+[33mcommit f8da39098129a80ae52c85fc31080c748563e78c[m
+Author: tubuan <s1f102302922@iniad.org>
+Date:   Sun Jun 18 23:37:52 2023 +0900
+
+    不要なファイルを削除
+
+[33mcommit 60898c9cdf65e3f869952f9790fb99bb4d7fc7fc[m
+Author: tubuan <tubuan@totoshi>
+Date:   Sun Jun 18 23:29:36 2023 +0900
+
+    エラー修正す
+
+[33mcommit 82153920707ac2942cef08d678d88d46d1eb2032[m
+Author: tubuan <tubuan@totoshi>
+Date:   Sun Jun 18 22:27:20 2023 +0900
+
+    setUserInputs をして8方向を確認するところまで
+
+[33mcommit 96f8b454d7d22e1aa19f55fa192b2c29030e2b76[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Tue Jun 13 03:51:45 2023 +0900
+
+    chore: add prettierPath
+
+[33mcommit ffb07ce0aaa24d363b4d33c8e2e343e1fb5b149d[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Tue Jun 13 03:51:14 2023 +0900
+
+    chore: adopt pretty-ts-errors for vscode
+
+[33mcommit b98e49af47a2959d5cad253d848e315b4749b110[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Thu Jun 1 04:19:05 2023 +0900
+
+    chore: add workflow_run
+
+[33mcommit cf62811e6763db3b88c3f21f13d823b6dadd007e[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Thu May 11 14:37:38 2023 +0900
+
+    fix: add hcm script
+
+[33mcommit 53dcb69541c228c29a61d45863e00ef534bd2250[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Thu May 11 13:44:38 2023 +0900
+
+    chore: add eslint rules for extra
+
+[33mcommit a3e9b02ba3823bf0091d16c222dce22a68e621a5[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Thu May 4 13:41:59 2023 +0900
+
+    chore: add permissions
+
+[33mcommit 3e6126b28b3b1a485751aebb1dc3f35da82924ed[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Apr 26 06:58:36 2023 +0900
+
+    refactor: add semicoron
+
+[33mcommit 25fe5d54e92e4538bdb30a4dd01604f8e2487f0d[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Apr 26 06:44:38 2023 +0900
+
+    refactor: remove styled-components
+
+[33mcommit 36f1731c55aa6a8af1d0205f727b7ac3693f6f72[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Apr 26 06:09:57 2023 +0900
+
+    refactor: use css modules
+
+[33mcommit 43465506bd0c96228c39d2fe2f6f8b5a2d38e9e2[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Apr 26 05:13:37 2023 +0900
+
+    chore: remove babel
+
+[33mcommit 25c0f32adfa71af97a899bf6beb8a8b233f84222[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Apr 26 04:50:25 2023 +0900
+
+    refactor: change yarn to npm
+
+[33mcommit 0f69fbd0f4fea2ecff194ef9521671c212e89fac[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Apr 26 04:37:19 2023 +0900
+
+    chore: update config
+
+[33mcommit 769b8af78d5ae38e24ca8f38fc2c73d7bc7193b1[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Apr 26 02:22:14 2023 +0900
+
+    chore: update GHA yml
+
+[33mcommit b12dd123b3acc845f11abd8263091f37cc0a0600[m
+Merge: e3e74bb 5dc9b2c
+Author: Solufa <solufa2020@gmail.com>
+Date:   Thu Oct 20 11:52:50 2022 +0900
+
+    Merge pull request #2 from konjikun/main
+    
+    icon使用時のエラー修正
+
+[33mcommit 5dc9b2c329712adbe423c1d91bbc26318d5cd65b[m
+Author: konjikun <s1f102200378@iniad.org>
+Date:   Thu Oct 20 11:05:49 2022 +0900
+
+    icon使用時のエラー修正
+
+[33mcommit e3e74bb10d8001b786b8e92bbc8a165c204707b3[m
+Merge: ece07c3 954970c
+Author: Solufa <solufa2020@gmail.com>
+Date:   Tue Oct 4 16:59:44 2022 +0900
+
+    Merge pull request #1 from konjikun/main
+    
+    material-ui入れました。
+
+[33mcommit 954970c1ddc3086bffa6c63e1a35a5883689dbf9[m
+Author: konjikun <s1f102200378@iniad.org>
+Date:   Tue Oct 4 15:57:58 2022 +0900
+
+    CR修正
+
+[33mcommit 652d7bdaf015fa8636e73fa24606c7d3033ed6f0[m
+Author: konjikun <s1f102200378@iniad.org>
+Date:   Tue Oct 4 06:31:23 2022 +0900
+
+    material-uiのリンク
+
+[33mcommit 701d5a412ac7949bb1f6a24e7364f5b2ab24cb05[m
+Author: konjikun <s1f102200378@iniad.org>
+Date:   Tue Oct 4 00:39:30 2022 +0900
+
+    material-uiのinstall
+
+[33mcommit ece07c34285bc95b93649074c457d175c56259e6[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Fri Aug 26 02:25:11 2022 +0900
+
+    chore: update nextjs
+
+[33mcommit 8d5d96c5cecf57fa1bbaa04b90a910ca7ef8f280[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Jun 8 16:07:14 2022 +0900
+
+    chore: update modules
+
+[33mcommit 155af8d065bc63f3c1f7244911ede60e00e754f8[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Mon Mar 14 00:08:33 2022 +0900
+
+    chore: change assetPrefix to basePath
+
+[33mcommit 96dab7700af57ff05fa5bb0a8c15140a5ffbce6c[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Thu Feb 17 16:14:45 2022 +0900
+
+    chore: add hooks rule
+
+[33mcommit f11c1f010f2ba6f85e2dff9c2a348957dae32fd5[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Feb 16 19:55:09 2022 +0900
+
+    fix: add @stylelint/postcss-css-in-js
+
+[33mcommit 0c78db467a731d3a0efe2bf64fd5213832173f87[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Feb 16 14:10:29 2022 +0900
+
+    chore: add eslint rules
+
+[33mcommit 94c6660eba3cbcf2a28f84be5e06cf8cbf856df8[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Feb 16 10:31:03 2022 +0900
+
+    chore: update modules
+
+[33mcommit b19882bff29e246a2ac1c0c255d96f8d94fd6923[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Tue Jan 11 08:14:20 2022 +0900
+
+    chore: add nojekyll file
+
+[33mcommit da06ead7e2284f60a38753d515482491ef0497f4[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Tue Jan 11 07:49:50 2022 +0900
+
+    chore: fix images path
+
+[33mcommit 0419c881fd7b99c6e0d240a3df10f8f4eeded214[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Tue Jan 11 07:46:24 2022 +0900
+
+    chore: fix deploy settings
+
+[33mcommit f191700c1e0f1981e8ac7e24d8afd2688662c311[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Tue Dec 21 21:18:07 2021 +0900
+
+    fix: ignore unit-no-unknown of stylelint
+
+[33mcommit c942ce8792460d146e27d0ccdbaa2445ccb45fd0[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Thu Dec 16 17:00:06 2021 +0900
+
+    chore: fix GHA files
+
+[33mcommit a59e8c48721f8b67f3a264e0e911e7fca41f4656[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Dec 15 09:16:49 2021 +0900
+
+    chore: fix lint:style command
+
+[33mcommit b0f9385de8564c7d2ed2727f29732926440f6175[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Tue Dec 14 01:28:03 2021 +0900
+
+    chore: update stylelint
+
+[33mcommit 73d33b6d4720637ad2182ca7598a73377b67f0eb[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Dec 8 18:34:51 2021 +0900
+
+    chore: add stylelint config
+
+[33mcommit e8379f6e124b354edc685c7085fe4174baaf0629[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Wed Dec 1 23:15:39 2021 +0900
+
+    chore: fix cached file name
+
+[33mcommit 07cb6ea201e0c8af16a362decc121c989f3e6b03[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Thu Nov 25 17:34:53 2021 +0900
+
+    fix: add assetPrefix for GitHub Pages
+
+[33mcommit 13b1951f743b7b1737c2bc9a45c5180ef56f4720[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Sat Oct 2 20:04:30 2021 +0900
+
+    fix: className of styled-components
+
+[33mcommit 8f6c7462b12dbc80b42db366dcd7861a714703d6[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Sat Oct 2 18:47:15 2021 +0900
+
+    setup
+
+[33mcommit 730b2df2ff1e8dfdbc5af0ed3d21f3c60560e2f8[m
+Author: solufa <solufa2020@gmail.com>
+Date:   Sat Oct 2 17:14:20 2021 +0900
+
+    Initial commit from Create Next App
